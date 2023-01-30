@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+.navbar-bg {
+  background-color: #1a120b;
+}
+.vh90 {
+  height: 50vh;
+}
+
+.custom-text {
+  color: #d5cea3;
+}
+.card-custom-bg {
+  background-color: #d5cea3;
+}
+.card-custom-text {
+  color: #1a120b;
+}
+
+.custom-btn-hover:hover {
+  color: #d5cea3;
+  background-color: #574c43;
+}
+.link-hover:hover {
+  color: #d5cea3 !important;
+  opacity: 0.7;
+}
+.card-hover:hover {
+  box-shadow: 0 0 20px #d5cea3;
+}

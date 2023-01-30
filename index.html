@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AD Coffee</title>
+    <!--* Bootstrap css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <!-- * Bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <!--* Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-bg">
+      <div class="container-fluid">
+        <a class="navbar-brand custom-text link-hover" href="#">AD Coffee</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="border: 1px solid #d5cea3"
+        >
+          <i class="bi bi-list custom-text"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a
+              class="nav-link custom-text link-hover"
+              aria-current="page"
+              href="#"
+              >Home</a
+            >
+            <a class="nav-link custom-text link-hover" href="#">Coffees</a>
+            <a class="nav-link custom-text link-hover" href="#">Pricing</a>
+            <a class="nav-link custom-text link-hover">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--* Navbar  -->
+    <!-- * Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/coffee1.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/coffee2.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/coffee3.png" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- * Carousel -->
+    <!-- * Hakkımızda  -->
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-sm-8 d-flex flex flex-column align-items-center gap-3">
+          <h1 class="custom-text">About</h1>
+
+          <p class="custom-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            reprehenderit, accusamus dolorum quam quae consectetur aliquam,
+            voluptate dignissimos quia ex nobis? Ullam temporibus provident
+            labore rem incidunt quo saepe culpa, dolor similique dolorem
+            mollitia recusandae odit ipsa in, corrupti sed sit assumenda rerum
+            impedit vero eos eum vitae excepturi. Alias.
+          </p>
+          <p class="custom-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
+            laboriosam aut quo reprehenderit harum quia veniam iure atque
+            dignissimos dolores. Autem nihil provident odio ea adipisci earum,
+            ratione iure commodi, nam id reiciendis perspiciatis maiores
+            distinctio beatae reprehenderit consequuntur aspernatur?
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- * Hakkımızda  -->
+    <!-- * Ürünler -->
+
+    <div class="container">
+      <div class="row mt-5">
+        <h2 class="text-center mb-5 custom-text">Products</h2>
+        <div class="col d-flex justify-content-center mb-2">
+          <!-- * card1 -->
+          <div class="card card-custom-bg card-hover" style="width: 18rem">
+            <img
+              src="images/coffee/cappucino.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text card-custom-text">Cappucino</p>
+            </div>
+          </div>
+          <!-- * card1 -->
+        </div>
+        <div class="col d-flex justify-content-center mb-2">
+          <!-- * card2 -->
+          <div class="card card-custom-bg card-hover" style="width: 18rem">
+            <img src="images/coffee/latte.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text card-custom-text">Latte</p>
+            </div>
+          </div>
+          <!-- * card2 -->
+        </div>
+        <div class="col d-flex justify-content-center mb-2">
+          <!-- * card3 -->
+          <div class="card card-custom-bg card-hover" style="width: 18rem">
+            <img
+              src="images/coffee/espresso.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text card-custom-text">Espresso</p>
+            </div>
+          </div>
+          <!-- * card3 -->
+        </div>
+        <div class="col d-flex justify-content-center mb-2">
+          <!-- * card4 -->
+          <div class="card card-custom-bg card-hover" style="width: 18rem">
+            <img src="images/coffee/mocha.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text card-custom-text">Mocha</p>
+            </div>
+          </div>
+          <!-- * card4 -->
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col d-flex justify-content-center mb-2">
+          <!-- * card5 -->
+          <div class="card card-custom-bg card-hover" style="width: 18rem">
+            <img
+              src="images/coffee/ice latte.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text card-custom-text">Ice Latte</p>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-2">
+          <!-- * card6 -->
+          <div class="card card-custom-bg card-hover" style="width: 18rem">
+            <img
+              src="images/coffee/filtercoffee.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text card-custom-text">Filter Coffee</p>
+            </div>
+          </div>
+          <!-- * card6 -->
+        </div>
+        <div class="col d-flex justify-content-center mb-2">
+          <!-- * card7 -->
+          <div class="card card-custom-bg card-hover" style="width: 18rem">
+            <img
+              src="images/coffee/coldbrew.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text card-custom-text">Cold Brew</p>
+            </div>
+          </div>
+          <!-- * card7 -->
+        </div>
+        <div class="col d-flex justify-content-center mb-2">
+          <!-- * card8 -->
+          <div class="card card-custom-bg card-hover" style="width: 18rem">
+            <img
+              src="images/coffee/turkishcoffee.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text card-custom-text">Turkish Coffee</p>
+            </div>
+          </div>
+          <!-- * card8 -->
+        </div>
+      </div>
+    </div>
+    <!-- * Ürünler -->
+    <!-- * İletişim -->
+    <div class="container">
+      <div class="row mt-5 gap-5">
+        <div class="col">
+          <h1 class="mb-3 custom-text">Contact</h1>
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label custom-text"
+              >Full Name
+            </label>
+
+            <input
+              class="form-control card-custom-bg"
+              id="exampleFormControlInput1"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label custom-text"
+              >Phone
+            </label>
+
+            <input
+              class="form-control card-custom-bg"
+              id="exampleFormControlInput1"
+            />
+          </div>
+          <div class="mb-3">
+            <label
+              for="exampleFormControlTextarea1"
+              class="form-label custom-text"
+              >About</label
+            >
+            <textarea
+              class="form-control custom-textarea card-custom-bg"
+              id="exampleFormControlTextarea1"
+            ></textarea>
+          </div>
+          <div>
+            <a class="btn card-custom-text card-custom-bg custom-btn-hover"
+              >Send</a
+            >
+          </div>
+        </div>
+        <div
+          class="col-md-5 d-flex align-items-center justify-content-center flex-column gap-2"
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6425.830176032422!2d30.298459515599003!3d36.362835586908815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1675110252519!5m2!1str!2str"
+            style="
+              width: 100%;
+              height: 50%;
+              border: 1px solid #d5cea3;
+              box-shadow: 0 0 10px #d5cea3;
+            "
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <h2 class="custom-text">Adress</h2>
+          <p class="text-center custom-text">
+            Karşıyaka Mahallesi Adnan Menderes Bulvarı <br />
+            Kumluca/Antalya
+          </p>
+          <p class="custom-text">Phone: 0530 125 57 07</p>
+          <a
+            class="btn custom-btn-hover custom-card-text card-custom-bg"
+            target="_blank"
+            href="https://goo.gl/maps/jCYBdYRZSjyY711n8"
+            >Location</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- * İletişim -->
+    <!--* Footer -->
+    <div class="card-custom-bg mt-5">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-4"
+        >
+          <div class="col-md-4 d-flex align-items-center text-white">
+            <span class="mb-3 mb-md-0 card-custom-text"
+              >All rights not reserved. © 2023 AD Coffee
+            </span>
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a
+                class="card-custom-text"
+                href="https://instagram.com/alidemirtas7"
+                target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="card-custom-text"
+                href="https://www.linkedin.com/in/admrts/"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="card-custom-text"
+                href="https://github.com/admrts"
+                target="_blank"
+                ><i class="bi bi-github"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="card-custom-text"
+                href="https://wa.me/905301255707"
+                target="_blank"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+
+    <!--* Footer -->
+    <!--* Bootstrap js  -->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
